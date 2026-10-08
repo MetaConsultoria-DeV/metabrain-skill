@@ -17,14 +17,15 @@ ferramentas adiadas que precisam ser carregadas/buscadas antes — verifique iss
 conectado.
 
 - **Não tem as ferramentas:** não responda de memória nem com conhecimento geral sobre a Meta. Diga à pessoa que o
-  MetaBrain não está conectado e conduza a conexão pelo passo a passo de `conectar.md` (a pessoa entra em
-  https://sites-metabrain-app.d86ysa.easypanel.host/conectar com a conta Microsoft da Meta e copia o bloco da
-  ferramenta que usa). Retome a pergunta só depois que as ferramentas aparecerem. Nunca peça o acesso/token na conversa nem rode
-  você mesmo o comando de conexão; se a pessoa colar o token no chat, diga para gerar um novo na página (um novo
-  login invalida o antigo).
+  MetaBrain não está conectado e peça para ela entrar em
+  https://sites-metabrain-app.d86ysa.easypanel.host/conectar com a conta Microsoft da Meta, copiar a frase que a
+  página mostra e colar aqui no chat.
+- **A pessoa colou a frase "Conecte o MetaBrain nesta ferramenta…" (com o acesso `mb_...`):** esse é o caminho
+  normal. Configure você mesmo pelo `conectar.md` (seção da sua ferramenta), sem repetir o acesso na resposta, e
+  diga o próximo passo (sessão nova). Retome a pergunta quando as ferramentas aparecerem.
 - **Uma chamada falhou com 401 / não autorizado:** o acesso venceu (vale 90 dias) ou foi trocado por um mais novo.
   Também pode aparecer como "precisa de autenticação" / botão "Authenticate" no `/mcp`, em vez de 401; não use
-  esse botão. Mande gerar um bloco novo na página e substituir o antigo (`conectar.md`, seção "Acesso vencido").
+  esse botão. Peça para entrar de novo na página e colar a frase nova aqui (`conectar.md`, seção "Acesso vencido").
 
 ## 2. Método de pesquisa
 
